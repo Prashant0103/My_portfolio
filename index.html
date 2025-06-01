@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Developer Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background: #1e3d59;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      color: #1e3d59;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    .about img {
+      float: right;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin-left: 2rem;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .skills ul {
+      columns: 2;
+      padding-left: 1.2rem;
+    }
+
+    .project {
+      background: #fff;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-left: 5px solid #1e3d59;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .project h3 {
+      margin: 0.2rem 0;
+    }
+
+    .resume a {
+      display: inline-block;
+      padding: 0.7rem 1.2rem;
+      background: #1e3d59;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+
+    .contact p {
+      margin: 0.5rem 0;
+    }
+
+    .contact a {
+      color: #1e3d59;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #1e3d59;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .skills ul {
+        columns: 1;
+      }
+
+      .about img {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <h1>Prashant Ghotkar</h1>
+  <div style="margin: 0.5rem 0;">
+    📧 <a href="mailto:prashantghotkar03@gmail.com" style="color: #fff; text-decoration: underline;">prashantghotkar03@gmail.com</a> |
+    📞 <span>+91-8975545817</span> |
+    🌐 <a href="https://www.linkedin.com/in/prashant-ghotkar-744a76205/" style="color: #fff; text-decoration: underline;" target="_blank">LinkedIn</a> |
+    💻 <a href="https://github.com/Prashant0103" style="color: #fff; text-decoration: underline;" target="_blank">GitHub</a>
+  </div>
+  <p>Software Developer | PL/SQL • Oracle • Python • Flask • Django • APIs • HTML • CSS</p>
+</header>
+
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <img src="me.jpg" alt="Your Photo">
+    <p>
+      I'm a passionate backend developer with over 3 years of experience working on scalable, secure, and enterprise-level applications. My work spans banking, financial tech, and geospatial projects using PL/SQL, Python, Flask, and C#. I’ve contributed to projects like Video KYC for HDFC and a custom satellite data fetcher app using Sentinel API. I love writing clean, maintainable code, and building solutions that solve real-world problems.
+    </p>
+    <p>
+      I also enjoy working on open-source projects and continuously upskilling in areas like cloud integration, API design, and database optimization. When I’m not coding, I explore tech blogs, tinker with automation scripts, or help peers with career tips.
+    </p>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, PL/SQL, C#, SQL, HTML, CSS</li>
+      <li><strong>Frameworks:</strong> Flask, Django, .NET Core</li>
+      <li><strong>Databases:</strong> Oracle, MySQL, MSSQL</li>
+      <li><strong>APIs:</strong> RESTful APIs, Postman, JSON, XML</li>
+      <li><strong>Tools:</strong> Git, Autosys, ETL (DataStage), GitHub, Docker (Basics)</li>
+      <li><strong>Cloud:</strong> Learning AWS (EC2, RDS)</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>💳 TATA NEU FD Credit Card Processing</h3>
+      <p><strong>Role:</strong> PL/SQL Developer ||  HDFC Bank - Deposits</p>
+      <p>Developed logic to fetch fixed deposit details and issue cards accordingly. Worked on database design, security validations, and integration with FTP and ETL pipelines.</p>
+      <p><strong>Tools:</strong> Oracle, PL/SQL, DataStage, FTP</p>
+    </div>
+
+    <div class="project">
+      <h3>🔐 HDFC Bank Video KYC System</h3>
+      <p><strong>Role:</strong> PL/SQL Developer  ||  HDFC Bank - Deposits</p>
+      <p>Created packages, triggers, and functions to support secure video-based customer verification. Ensured compliance with regulatory standards for data access and encryption.</p>
+      <p><strong>Tools:</strong> PL/SQL, Oracle SQL</p>
+    </div>
+
+    <div class="project">
+      <h3>🔐 MHA Ministry of Home Affairs Fraud Reporting</h3>
+      <p><strong>Role:</strong> PL/SQL Developer ||  HDFC Bank - Deposits</p>
+      <p>Created packages, triggers, and functions for Reporting Fraud and sending Fraud reports.</p>
+      <p><strong>Tools:</strong> PL/SQL, Oracle SQL</p>
+    </div>
+
+    <div class="project">
+      <h3>🛰️ Satellite Data Fetcher App</h3>
+      <p><strong>Role:</strong> Python + Flask Developer</p>
+      <p>Web app that fetches satellite metadata using Sentinel Sat API and stores in MySQL. Includes search, filters, and download options via REST API.</p>
+      <p><strong>Tools:</strong> Python, Flask, Sentinel API, MySQL</p>
+    </div>
+
+    <div class="project">
+      <h3>🎓 ITBrains Course Website</h3>
+      <p><strong>Role:</strong> Full Stack (Flask)</p>
+      <p>Website for listing software courses with dynamic pages, searchable syllabus, and responsive UI. Backend built using Flask and MySQL.</p>
+      <p><strong>Tools:</strong>Python Flask, MySQL, HTML/CSS</p>
+    </div>
+  </section>
+
+  <section class="resume" id="resume">
+    <h2>Resume</h2>
+    <p>Download my latest resume below:</p>
+    <a href="prashant_resume.pdf" download>📄 Download Resume</a>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:prashantghotkar03@gmail.com">prashantghotkar03@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91-8975545817</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prashant-ghotkar-744a76205/" target="_blank">linkedin.com/in/prashant-ghotkar</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Prashant0103" target="_blank">github.com/Prashant0103</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. Built with 💻 and ☕</p>
+  </footer>
+
+</body>
+</html>
